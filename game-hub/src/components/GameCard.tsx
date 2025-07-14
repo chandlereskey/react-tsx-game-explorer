@@ -10,7 +10,7 @@ type GameCardProp = {
 
 function GameCard({ game }: GameCardProp) {
   return (
-    <Card.Root borderRadius={10} overflow="hidden">
+    <Card.Root>
       <Image src={getCroppedImageUrl(game.background_image)} />
       <Card.Body>
         <Card.Header fontSize="2xl">{game.name}</Card.Header>
