@@ -7,7 +7,7 @@ type GameCardContainerProps = {
 
 function GameCardContainer({ children }: GameCardContainerProps) {
   return (
-    <Box width="100%" borderRadius={10} overflow="hidden">
+    <Box borderRadius={10} overflow="hidden">
       {children}
     </Box>
   );
